@@ -54,14 +54,14 @@ const HeroSection = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.2, duration: 0.6 }}
         >
-          <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-orange-500">
+          <span className="max-[390px]:text-4xl : text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-orange-500">
             Roshan Shrivas
           </span>
         </motion.h1>
 
         {/* Role with emoji */}
         <motion.h2 
-          className="text-2xl md:text-3xl font-semibold mb-6 text-gray-300"
+          className="max-[390px]:text-xl text-2xl md:text-3xl font-semibold mb-6 text-gray-300"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.4, duration: 0.6 }}
@@ -120,7 +120,7 @@ const HeroSection = () => {
           </a>
           <a
             href="#contact"
-            className="inline-flex items-center px-6 py-3 border border-yellow-400 text-yellow-400 rounded-full hover:bg-yellow-400 hover:bg-opacity-10 transition-all duration-300"
+            className="max-[385px]:invisible inline-flex items-center px-6 py-3 border border-yellow-400 text-yellow-400 rounded-full hover:bg-yellow-400 hover:bg-opacity-10 transition-all duration-300"
           >
             Let's Connect
           </a>

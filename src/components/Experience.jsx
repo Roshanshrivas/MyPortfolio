@@ -47,7 +47,7 @@ const Experience = () => {
               </div>
               
               {/* Experience Card */}
-              <div className="w-full max-[430px]:w-[300px] max-[321px]:w-[220px] md:w-5/12 md:mr-auto bg-gray-800 p-6 rounded-xl border border-gray-700 shadow-lg ml-10 md:ml-0">
+              <div className="w-full max-[430px]:w-[300px] max-[375px]:w-[250px] max-[321px]:w-[220px] md:w-5/12 md:mr-auto bg-gray-800 p-6 rounded-xl border border-gray-700 shadow-lg ml-10 md:ml-0">
                 <h3 className="max-[321px]:text-xl text-2xl font-bold text-white mb-1">Web Developer</h3>
                 <h4 className="text-lg text-yellow-400 mb-3">R&S Technology and Business Consultant</h4>
                 
