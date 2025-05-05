@@ -2,6 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { FaReact, FaNodeJs } from 'react-icons/fa';
 import { SiMongodb, SiExpress } from 'react-icons/si';
+import Roshan from "../assets/RoshanMERN.docx.pdf"
 
 const HeroSection = () => {
   const techStack = [
@@ -111,7 +112,7 @@ const HeroSection = () => {
           transition={{ delay: 1.2, duration: 0.6 }}
         >
           <a
-            href="/Roshan-Shrivas-Resume.pdf"
+            href={Roshan} // Link to your CV file
             download
             className="inline-flex items-center px-6 py-3 bg-gradient-to-r from-yellow-500 to-orange-500 text-black font-bold rounded-full shadow-lg hover:from-yellow-600 hover:to-orange-600 transition-all duration-300"
           >
